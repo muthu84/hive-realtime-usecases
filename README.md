@@ -9,11 +9,11 @@ Customer will send the list of stock items from his store as JSON format, we hav
 
 Pre-requisites:
 
-Data file Copy into HDFS:
+Copy the data file into HDFS:
 
 dowload the store.json file and copy it in your hdfs location '/tmp/stores' folder using copy_json.sh script.
 
-JSON Serde Download and Copy to HIVE LIB folder:
+Download JSON SERDE and Copy to HIVE LIB folder:
 
 From Maven repository download the Hive Hcatalog (hive-hcatalog-core-1.2.1.jar)
 
