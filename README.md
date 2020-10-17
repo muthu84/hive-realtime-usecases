@@ -7,15 +7,17 @@ Process the Store stocks using HIVE :
 Requirement: 
 Customer will send the list of stock items from his store as JSON format, we have to load it in HIVE and do some analysis in that data like get list of stocks group by store.
 
-Data file:
-dowload the store.json file and copy it in your hdfs location '/user/<hadoopusername>' folder using HDFS put or copyFromLocal command .
+Pre-requisites:
 
-JSON Serde Download:
+Data file Copy into HDFS:
+
+dowload the store.json file and copy it in your hdfs location '/tmp/stores' folder using HDFS put or copyFromLocal command .
+
+JSON Serde Download and Copy to HIVE LIB folder:
+
 From Maven repository download the Hive Hcatalog (hive-hcatalog-core-1.2.1.jar)
 
 https://repo1.maven.org/maven2/org/apache/hive/hcatalog/hive-hcatalog-core/1.2.1/
-
-Pre-requisite:
 
 Load the above JSON serde jar in hive lib directory (/usr/local/hive/lib) or add this jar while run this hql job.
 
