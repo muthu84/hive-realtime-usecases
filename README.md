@@ -11,7 +11,7 @@ Pre-requisites:
 
 Data file Copy into HDFS:
 
-dowload the store.json file and copy it in your hdfs location '/tmp/stores' folder using HDFS put or copyFromLocal command .
+dowload the store.json file and copy it in your hdfs location '/tmp/stores' folder using copy_json.sh script.
 
 JSON Serde Download and Copy to HIVE LIB folder:
 
