@@ -5,7 +5,7 @@ Use case 1:
 Process the Store stocks using HIVE :
 
 Requirement: 
-Customer will send the list of stock items from his store as JSON format, we have to load it in HIVE and do some analysis in that data like get list of stocks group by store.
+Customer will send the list of stock items as JSON format, we have to load it in HIVE and do some analysis in that data .
 
 Pre-requisites:
 
