@@ -15,9 +15,9 @@ dowload the store.json file and copy it in your hdfs location '/tmp/stores' fold
 
 Download JSON SERDE and Copy to HIVE LIB folder:
 
-From Maven repository download the Hive Hcatalog (hive-hcatalog-core-1.2.1.jar)
+Download JSON SERDE from the below (org.openx.data.jsonserde.JsonSerDe)
 
-https://repo1.maven.org/maven2/org/apache/hive/hcatalog/hive-hcatalog-core/1.2.1/
+https://jar-download.com/artifact-search/json-serde
 
 Load the above JSON serde jar in hive lib directory (/usr/local/hive/lib) or add this jar while run this hql job.
 
