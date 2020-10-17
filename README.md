@@ -8,7 +8,7 @@ Requirement:
 Customer will send the list of stock items from his store as JSON format, we have to load it in HIVE and do some analysis in that data like get list of stocks group by store.
 
 Data file:
-load the store.json file for the dataset to use this use case.
+dowload the store.json file and copy it in your hdfs location '/user/<hadoopusername>' folder using HDFS put or copyFromLocal command .
 
 JSON Serde Download:
 From Maven repository download the Hive Hcatalog (hive-hcatalog-core-1.2.1.jar)
